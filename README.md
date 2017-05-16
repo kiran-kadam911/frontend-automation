@@ -25,8 +25,6 @@ List of tasks added into gulpfile.json are
 - gulp-autoprefixer : https://www.npmjs.com/package/gulp-autoprefixer
 - gulp-uglify : https://www.npmjs.com/package/gulp-uglify
 - gulp-uglifycss : https://www.npmjs.com/package/gulp-uglifycss
-- gulp-concat : https://www.npmjs.com/package/gulp-concat/
-- gulp-concat-css : https://www.npmjs.com/package/gulp-concat-css
 - gulp-imagemin : https://www.npmjs.com/package/gulp-imagemin
 - gulp-csscomb : https://www.npmjs.com/package/gulp-csscomb
 - gulp-scss-lint : https://www.npmjs.com/package/gulp-scss-lint
