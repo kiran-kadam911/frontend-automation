@@ -27,13 +27,14 @@ List of tasks added into gulpfile.js are:
 - gulp-scss-lint : https://www.npmjs.com/package/gulp-scss-lint 
   - You also need to install scss lint for that use command "gem install scss_lint"  
 - gulp-csscomb : https://www.npmjs.com/package/gulp-csscomb
-  - Check out the csscomb available options here: https://github.com/csscomb/sublime-csscomb/blob/master/node_modules/csscomb/doc/options.md
   - Download csscomb.json which is already sorted as per standard and replace it in your node_modules/csscomb/config
+  - Check out the csscomb available options here: https://github.com/csscomb/sublime-csscomb/blob/master/node_modules/csscomb/doc/options.md
 - gulp-imagemin : https://www.npmjs.com/package/gulp-imagemin
   - Check out the imagemin available options here: https://github.com/sindresorhus/gulp-imagemin
 - gulp-jshint : https://www.npmjs.com/package/gulp-jslint
   - You need to install: npm install --save-dev jshint-stylish
 - gulp-jsbeautifier : https://www.npmjs.com/package/gulp-jsbeautifier
+  - Download defaults.json which is already sorted as per standard and replace it in your node_modules/js-beautify/js/config/
   - Check out the JSPrettify available options here: https://github.com/beautify-web/js-beautify
 - gulp-uglify : https://www.npmjs.com/package/gulp-uglify
   - Check out the uglifyjs available options here: https://www.npmjs.com/package/gulp-uglify  

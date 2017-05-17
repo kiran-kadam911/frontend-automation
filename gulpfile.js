@@ -58,14 +58,15 @@ gulp.task('images', function() {
   .pipe(gulp.dest(images_url));
 });
 
-// SCSS Lint for SCSS validation. 
+// SCSS Lint for SCSS validation
 // You also need to install scss lint for that use command "gem install scss_lint"
 gulp.task('scss-lint', function() {
   return gulp.src(sass_url+"**/*.scss")
     .pipe(scsslint());
 });
 
-// SCSS formatter 
+// SCSS formatter
+// Download csscomb.json which is already sorted as per standard and replace it in your node_modules/csscomb/config
 gulp.task('stylescomb', function() {
   return gulp.src(sass_url+"**/*.scss")
     // Check out the csscomb available options here: https://github.com/csscomb/sublime-csscomb/blob/master/node_modules/csscomb/doc/options.md
@@ -82,6 +83,7 @@ gulp.task('js-hint', function() {
 });
 
 // JS Formatter
+// Download defaults.json which is already sorted as per standard and replace it in your node_modules/js-beautify/js/config/
 gulp.task('prettify', function() {
   gulp.src([js_url+"*.js"])
     // Check out the JSPrettify available options here: https://github.com/beautify-web/js-beautify
@@ -115,3 +117,4 @@ gulp.task('compress-js', function (cb) {
     cb
   );
 });
+
