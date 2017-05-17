@@ -34,4 +34,4 @@ List of tasks added into gulpfile.json are
 - gulp-jsbeautifier : https://www.npmjs.com/package/gulp-jsbeautifier
 
 Once this is done, you are ready to start automating frontend. 
-In "node terminal", go to your project directory and type command as per your task for e.g to compile sass file need to run command like "gulp sass-watch". As per this you can run other commands also as per your requirement.
+In "node terminal", go to your project directory and type command as per your task (for e.g to compile sass file need to run command like "gulp sass-watch"). As per this you can run other commands also as per your requirement.
