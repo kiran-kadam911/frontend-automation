@@ -7,7 +7,7 @@ Prerequisites:
 
 Installation Steps:
 - Download repositiory to your system. Extract it.
-- gulpfile.js, package.json, README.md & LICENSE Copy and paste files into the theme directory of your project.
+- gulpfile.js, package.json, README.md & LICENSE copy and paste files into the theme directory of your project.
 - Open "Node Terminal", Go to your project theme directory.
 - To make this work type following commands into your "Node Terminal".
 	1) Type "npm init" into terminal this will ask you a bunch of questions, and then write a package.json for you. 
