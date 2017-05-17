@@ -11,13 +11,13 @@ Installation Steps
 - Open "Node Terminal", Go to your project theme directory.
 - To make this work type following commands into your "Node Terminal".
 	1) Type "npm install" into terminal
-		 As "package.json" is already present in root directory, Node will install all the dependencies required for automation
+		 As "package.json" is already present in project theme directory, Node will install all the dependencies required for automation
 	2) Next step is type command "npm install gulp-cli -g" and "npm install gulp -D"
-		 This will install gulp globally into system as well ass node will treat as a dependency for your project.
+		 This will install gulp globally into system as well as node will treat as a dependency for your project.
 
 Now that installation is completed. Open "gulpfile.js". Do the necessity changes like changes folder path, arrangement of task as per the need.
 
-List of tasks added into gulpfile.json are
+List of tasks added into gulp.js are
 - gulp : http://gulpjs.com/
 - gulp-sass : https://www.npmjs.com/package/gulp-sass
 - gulp-sourcemaps : https://www.npmjs.com/package/gulp-sourcemaps
