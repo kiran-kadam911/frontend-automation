@@ -45,7 +45,7 @@ gulp.task('sass-watch', function () {
 // BrowserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
-    proxy: "192.168.6.219:8888/drupal7/" // Here you need to add your local machine project path
+    proxy: "192.168.6.219:8888/drupal7/" // Here you need to add your local machine ip & project path
   });
   gulp.watch(sass_url+"**/*.scss", ['sass']);
 });
@@ -58,7 +58,8 @@ gulp.task('images', function() {
   .pipe(gulp.dest(images_url));
 });
 
-// SCSS Lint for SCSS validation
+// SCSS Lint for SCSS validation. 
+// You also need to install scss lint for that use command "gem install scss_lint"
 gulp.task('scss-lint', function() {
   return gulp.src(sass_url+"**/*.scss")
     .pipe(scsslint());
@@ -114,4 +115,3 @@ gulp.task('compress-js', function (cb) {
     cb
   );
 });
-
