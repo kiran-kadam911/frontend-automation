@@ -1,11 +1,11 @@
-# frontend-automation
+# Frontend Automation
 Automate frontend using task runner gulp
 
 Prerequisites:
 - Knowledge of Node.js, Gulp Js
 - Pre Installed Node and Gulp globally on local system
 
-Installation Steps
+Installation Steps:
 - Download repositiory to your system. Extract it.
 - Copy and paste files into the theme directory of your project.
 - Open "Node Terminal", Go to your project theme directory.
@@ -17,7 +17,7 @@ Installation Steps
 
 Now that installation is completed. Open "gulpfile.js". Do the necessity changes like changes folder path, arrangement of task as per the need.
 
-List of tasks added into gulp.js are
+List of tasks added into gulpfile.js are:
 - gulp : http://gulpjs.com/
 - gulp-sass : https://www.npmjs.com/package/gulp-sass
 - gulp-sourcemaps : https://www.npmjs.com/package/gulp-sourcemaps
@@ -44,4 +44,4 @@ List of tasks added into gulp.js are
   - Check out the livereload available options here: https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp 
 
 Once this is done, you are ready to start automating frontend. 
-In "node terminal", go to your project directory and type command as per your task (for example: To compile sass file need to run command like "gulp sass-watch"). As per this you can run other commands also as per your requirement.
+In "node terminal", go to your project theme directory and type command as per your task (for example: To compile sass file need to run command like "gulp sass-watch"). As per this you can run other commands also as per your requirement.
