@@ -45,4 +45,4 @@ List of tasks added into gulpfile.js are:
   - Check out the livereload available options here: https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp 
 
 Once this is done, you are ready to start automating frontend. 
-In "node terminal", go to your project theme directory and type command as per your task (for example: To compile sass file need to run command like "gulp sass-watch"). As per this you can run other commands also as per your task requirement.
+In "node terminal", go to your project theme directory and type command as per your task (for example: To compile sass file need to run command like "gulp sass-watch"). As per this you can run other commands also depending on your task requirement.
